@@ -1,0 +1,16 @@
+.input{
+    border:none;
+    border-bottom: 1px solid #B9B9B9;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.input:focus{
+    border-bottom: 1px solid #ffa318;
+}
+
+@media (max-width: 768px) {
+    .input{
+        width: 250px;
+    }
+}

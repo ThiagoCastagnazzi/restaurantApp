@@ -1,0 +1,27 @@
+.table{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 9px;
+}
+
+.yellow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: yellow;
+    height: 75%;
+    border-radius: 8px;
+}
+
+.red {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    height: 75%;
+    border-radius: 8px;
+}

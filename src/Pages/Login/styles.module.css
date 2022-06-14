@@ -1,0 +1,44 @@
+.login{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    box-shadow: 0 0 2rem lightgray;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+img.login{
+    grid-row: 1 / 3;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin: 0 auto;
+    padding: 1rem;
+    place-content: center;
+    border-radius: 10px;
+    grid-row: 1 / 3;
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+a.link{
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 768px) {
+    .login{
+        grid-template-columns: 1fr;
+    }
+      img.login{
+          display: none;
+      }
+  }
